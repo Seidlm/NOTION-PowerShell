@@ -7,7 +7,7 @@ $Notionheaders = @{
     "Notion-Version" = "2021-08-16"
 }
 
-$DatabaseID="ae799113efd3466e999cf229bf989b7c"
+$DatabaseID = "your Database ID"
 
 $Result = Invoke-RestMethod -Uri "https://api.notion.com/v1/databases/$DatabaseID/query" -Method Post -Headers $Notionheaders
 
